@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".firstFragment"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/business"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="business"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/entertainment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="entertainment"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/general"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="general"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/health"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="health"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/science"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="science"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/sports"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="sports"/>
+    <Button
+        android:id="@+id/technology"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="technology"/>
+
+
+
+</LinearLayout>
